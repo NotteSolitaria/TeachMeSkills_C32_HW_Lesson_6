@@ -1,4 +1,4 @@
-package Task_1;
+package task_1;
 
 /**
  * Create a CreditCard class with the fields account number, current account balance.
@@ -22,12 +22,12 @@ public class Card {
 
         TransferService transferService = new TransferService();
 
-        transferService.chargingToCard(card_1,58);
-        transferService.chargingToCard(card_2,78);
-        transferService.removal(card_3,42);
+        transferService.ChargingToCard(card_1,58);
+        transferService.ChargingToCard(card_2,48);
+        transferService.Removal(card_3,42);
 
-        transferService.showCardInfo(card_1);
-        transferService.showCardInfo(card_2);
-        transferService.showCardInfo(card_3);
+        transferService.ShowCardInfo(card_1);
+        transferService.ShowCardInfo(card_2);
+        transferService.ShowCardInfo(card_3);
     }
 }

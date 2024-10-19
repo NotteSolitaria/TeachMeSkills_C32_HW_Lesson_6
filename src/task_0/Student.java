@@ -1,4 +1,4 @@
-package Task_0;
+package task_0;
 
 /**
  * Create a class to describe a student in our group.
