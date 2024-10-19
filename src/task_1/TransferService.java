@@ -1,8 +1,8 @@
-package Task_1;
+package task_1;
 
 public class TransferService {
 
-    public void chargingToCard(CreditCard card, int amountToReplenish){
+    public void ChargingToCard(CreditCard card, int amountToReplenish){
         if (amountToReplenish >= 0) {
             card.amountOnAccount += amountToReplenish;
         } else if (amountToReplenish < 0) {
@@ -10,7 +10,7 @@ public class TransferService {
         }
     }
 
-    public void removal( CreditCard card, int amountToWithdraw){
+    public void Removal( CreditCard card, int amountToWithdraw){
         if (amountToWithdraw <= 0) {
             System.out.println("Сумма должна быть положительной.");
             return;
@@ -23,7 +23,7 @@ public class TransferService {
         System.out.println("Amount remaining after withdrawal: " + balanceAfterWithdrawal);
     }
 
-    public void showCardInfo(CreditCard card){
+    public void ShowCardInfo(CreditCard card){
         System.out.println("Номер карты: " + card.accountNumber + " Баланс карты: " + card.amountOnAccount);
     }
 }

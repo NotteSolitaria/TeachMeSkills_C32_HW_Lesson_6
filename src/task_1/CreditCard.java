@@ -1,4 +1,4 @@
-package Task_1;
+package task_1;
 
 public class CreditCard {
 
@@ -8,14 +8,6 @@ public class CreditCard {
     public CreditCard(int accountNumber, int amountOnAccount) {
         this.accountNumber = accountNumber;
         this.amountOnAccount = amountOnAccount;
-    }
-
-    public int AccountNumber() {
-        return accountNumber;
-    }
-
-    public int amountOnAccount() {
-        return amountOnAccount;
     }
 
 }
